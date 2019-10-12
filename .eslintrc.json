@@ -3,14 +3,41 @@
         "browser": true,
         "es6": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended", 
+        "standard"
+    ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "ecmaVersion": 2018
+        "ecmaVersion": 2019,
+        "sourceType": "script",
+        "parser": "babel-eslint"
     },
     "rules": {
+        "eqeqeq": "error",
+        "comma-dangle": "warn",
+        "no-console": "off",
+        "no-debugger": "warn",
+        "no-extra-semi": "warn",
+        "no-extra-parens": "warn",
+        "no-irregular-whitespace": "off",
+        "no-undef": "error",
+        "no-unused-vars": "warn",
+        "semi": "off",
+        "semi-spacing": "off",
+        "valid-jsdoc": [
+            "error",
+            { "requireReturn": false }
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "space-before-function-paren": "off",
+        "newline-before-return": "warn",
+        "prefer-const": "error"
     }
 }
