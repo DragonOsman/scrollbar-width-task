@@ -1,0 +1,35 @@
+{
+  "name": "scrollbar-width-task",
+  "version": "1.0.0",
+  "description": "Task Solution for \"What is the scrollbar width\" on javascript.info",
+  "main": "scripts/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragonOsman/scrollbar-width-task.git"
+  },
+  "keywords": [
+    "javascript.info",
+    "task-solution",
+    "scrollbar-width",
+    "width",
+    "scrollbar"
+  ],
+  "author": "Osman Zakir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DragonOsman/scrollbar-width-task/issues"
+  },
+  "homepage": "https://github.com/DragonOsman/scrollbar-width-task#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
